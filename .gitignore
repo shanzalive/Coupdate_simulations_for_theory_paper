@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.DS_Store
+
+# Raw simulation results are large (one is 200+MB, over GitHub's 100MB
+# limit) and fully regenerable by re-running each sim's train.py -- only
+# the figures (small PDFs) are tracked as the shareable deliverables.
+outputs/**/*.npz
